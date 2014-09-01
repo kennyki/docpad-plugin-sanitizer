@@ -1,0 +1,22 @@
+{
+  "name": "docpad-plugin-sanitizer",
+  "version": "2.0.0",
+  "description": "A helper for HTML string sanitization based on Google Caja",
+  "keywords": [
+    "docpad",
+    "docpad-plugin",
+    "sanitizer",
+    "xss"
+  ],
+  "author": "Kenny Ki",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "peerDependencies": {
+    "docpad": "6"
+  },
+  "dependencies": {
+    "sanitizer": "^0.1.2"
+  },
+  "main": "./sanitizer.plugin.js"
+}
